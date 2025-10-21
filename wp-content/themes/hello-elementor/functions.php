@@ -271,3 +271,11 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 require HELLO_THEME_PATH . '/theme.php';
 
 HelloTheme\Theme::instance();
+
+function allow_3d_uploads($mimes) {
+    $mimes['glb'] = 'model/gltf-binary';
+    $mimes['gltf'] = 'model/gltf+json';
+    $mimes['usdz'] = 'model/vnd.usdz+zip';
+    return $mimes;
+}
+add_filter('upload_mimes', 'allow_3d_uploads');
