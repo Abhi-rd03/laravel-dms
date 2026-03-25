@@ -95,7 +95,7 @@ class Module extends Module_Base {
 
 	public function render_app() {
 		?>
-		<?php Sale_Banner::get_banner( 'https://go.elementor.com/io-bf-banner/' ); ?>
+		<?php Sale_Banner::get_banner( 'https://go.elementor.com/IO-BF-sale' ); ?>
 		<?php One_Million_Installs_Banner::get_banner( 'https://go.elementor.com/io-1m-banner-upgrade/' ); ?>
 		<?php Birthday_Banner::get_banner( 'https://go.elementor.com/io-b-day-banner' ); ?>
 

@@ -13,6 +13,7 @@ use ImageOptimization\Classes\Image\{
 	Image_Optimization_Error_Type,
 	Image_Status,
 };
+
 use ImageOptimization\Classes\Logger;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -33,10 +34,7 @@ class Retry {
 			[ $action ] = Async_Operation::get( $query );
 
 			if ( ! $action ) {
-				Logger::log(
-					Logger::LEVEL_ERROR,
-					'Could not find an action to retry for ' . $image_id
-				);
+				Logger::info( 'Could not find an action to retry for ' . $image_id );
 
 				( new Image_Meta( $image_id ) )
 					->set_status( Image_Status::OPTIMIZATION_FAILED )
@@ -49,10 +47,7 @@ class Retry {
 			// Unlikely timeout to separate force retries from the real timeout issues
 			do_action( 'action_scheduler_failed_action', $action->get_id(), 1337 );
 		} catch ( Async_Operation_Exception $aoe ) {
-			Logger::log(
-				Logger::LEVEL_ERROR,
-				"Failed to retry an optimization operation for `$image_id`: " . $aoe->getMessage()
-			);
+			Logger::error( "Failed to retry an optimization operation for `$image_id`: " . $aoe->getMessage() );
 		}
 	}
 
@@ -64,18 +59,12 @@ class Retry {
 			return;
 		}
 
-		Logger::log(
-			Logger::LEVEL_ERROR,
-			"Optimization {$action_id} failed"
-		);
+		Logger::info( "Optimization {$action_id} failed" );
 
 		$attachment_id = isset( $action->get_args()['attachment_id'] ) ? (int) $action->get_args()['attachment_id'] : null;
 
 		if ( ! $attachment_id ) {
-			Logger::log(
-				Logger::LEVEL_ERROR,
-				"Missing image ID in failed action {$action_id}"
-			);
+			Logger::info( "Missing image ID in failed action {$action_id}" );
 
 			return;
 		}
@@ -93,16 +82,14 @@ class Retry {
 					$action->get_hook(),
 					$action->get_args(),
 					$action->get_queue(),
-					time() + self::ONE_MINUTE_IN_SECONDS,
+					time() + ( $retry_count * self::ONE_MINUTE_IN_SECONDS ),
 				);
 
-				Logger::log(
-					Logger::LEVEL_ERROR,
+				Logger::debug(
 					"Rescheduled image optimization for image ID {$attachment_id}. Retry attempt: " . ( $retry_count + 1 )
 				);
 			} catch ( Async_Operation_Exception $aoe ) {
-				Logger::log(
-					Logger::LEVEL_ERROR,
+				Logger::debug(
 					"Failed to reschedule optimization for image ID {$attachment_id}: " . $aoe->getMessage()
 				);
 			}
@@ -112,10 +99,7 @@ class Retry {
 				->set_retry_count( null )
 				->save();
 
-			Logger::log(
-				Logger::LEVEL_ERROR,
-				"Image optimization for image ID {$attachment_id} exceeded retry limit."
-			);
+			Logger::debug( "Image optimization for image ID {$attachment_id} exceeded retry limit." );
 		}
 	}
 

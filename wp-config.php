@@ -91,6 +91,7 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+define( 'WC_REMOVE_ALL_DATA', true );
 
 
 /* That's all, stop editing! Happy publishing. */

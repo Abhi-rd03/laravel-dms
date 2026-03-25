@@ -18,14 +18,12 @@ use ImageOptimization\Classes\Image\{
 	Image_Status,
 	WP_Image_Meta
 };
-use ImageOptimization\Classes\File_System\Exceptions\File_System_Operation_Error;
-use ImageOptimization\Classes\File_System\File_System;
 use ImageOptimization\Classes\Logger;
 use ImageOptimization\Classes\Utils;
-use ImageOptimization\Modules\Oauth\Classes\Data;
 use ImageOptimization\Classes\Exceptions\Quota_Exceeded_Error;
 use ImageOptimization\Modules\Optimization\Classes\Exceptions\Bulk_Token_Obtaining_Error;
 use ImageOptimization\Modules\Optimization\Components\Exceptions\Bulk_Optimization_Token_Not_Found_Error;
+use ImageOptimization\Modules\Settings\Classes\Settings;
 use ImageOptimization\Modules\Stats\Classes\Optimization_Stats;
 
 use ImageOptimization\Plugin;
@@ -113,7 +111,16 @@ class Bulk_Optimization_Controller {
 		);
 
 		if ( ! $images['total_images_count'] ) {
-			return;
+			$not_fully_optimized_images = self::find_images(
+				self::query_not_fully_optimized_images(),
+				true
+			);
+
+			if ( ! $not_fully_optimized_images['total_images_count'] ) {
+				return;
+			}
+
+			$images = $not_fully_optimized_images;
 		}
 
 		$operation_id = wp_generate_password( 10, false );
@@ -281,6 +288,48 @@ class Bulk_Optimization_Controller {
 		$output['attachments_out_of_quota'] = array_diff( $wp_query->posts, $output['attachments_in_quota'] );
 
 		return $output;
+	}
+
+	/**
+	 * Looks for images that were optimized, but not all their sizes were processed.
+	 *
+	 * @return Image_Query_Builder
+	 */
+	private static function query_not_fully_optimized_images(): Image_Query_Builder {
+		$result = [];
+		$sizes_enabled = Settings::get( Settings::CUSTOM_SIZES_OPTION_NAME );
+		$optimized_images = ( new Image_Query_Builder() )
+			->return_optimized_images()
+			->execute();
+
+		foreach ( $optimized_images->posts as $attachment_id ) {
+			try {
+				$image_meta = new Image_Meta( $attachment_id );
+				$wp_meta = new WP_Image_Meta( $attachment_id );
+			} catch ( Invalid_Image_Exception $iie ) {
+				continue;
+			}
+
+			$registered_sizes = $wp_meta->get_size_keys();
+			$optimized_sizes = $image_meta->get_optimized_sizes();
+
+			if ( 'all' !== $sizes_enabled ) {
+				$registered_sizes = array_filter($registered_sizes, function( $size ) use ( $sizes_enabled ) {
+					return in_array( $size, $sizes_enabled, true );
+				});
+
+				$optimized_sizes = array_filter($optimized_sizes, function( $size ) use ( $sizes_enabled ) {
+					return in_array( $size, $sizes_enabled, true );
+				});
+			}
+
+			if ( count( $optimized_sizes ) < count( $registered_sizes ) ) {
+				$result[] = $attachment_id;
+			}
+		}
+
+		return ( new Image_Query_Builder() )
+			->set_image_ids( $result );
 	}
 
 	/**

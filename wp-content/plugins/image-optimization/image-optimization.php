@@ -3,7 +3,7 @@
  * Plugin Name: Image Optimizer - Compress, Resize and Optimize Images
  * Description: Automatically resize, optimize, and convert images to WebP and AVIF. Compress images in bulk or on upload to boost your WordPress site performance.
  * Plugin URI: https://go.elementor.com/wp-repo-description-tab-io-product-page/
- * Version: 1.6.8
+ * Version: 1.6.9
  * Author: Elementor.com
  * Author URI: https://go.elementor.com/author-uri-io/
  * Text Domain: image-optimization
@@ -17,13 +17,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'IMAGE_OPTIMIZATION_VERSION', '1.6.8' );
+define( 'IMAGE_OPTIMIZATION_VERSION', '1.6.9' );
 define( 'IMAGE_OPTIMIZATION_FILE', __FILE__ );
 define( 'IMAGE_OPTIMIZATION_PATH', plugin_dir_path( IMAGE_OPTIMIZATION_FILE ) );
 define( 'IMAGE_OPTIMIZATION_URL', plugins_url( '/', IMAGE_OPTIMIZATION_FILE ) );
 define( 'IMAGE_OPTIMIZATION_ASSETS_PATH', IMAGE_OPTIMIZATION_PATH . 'assets/' );
 define( 'IMAGE_OPTIMIZATION_ASSETS_URL', IMAGE_OPTIMIZATION_URL . 'assets/' );
-define( 'IMAGE_OPTIMIZATION_PLUGIN_FILE', basename( IMAGE_OPTIMIZATION_FILE ) );
+define( 'IMAGE_OPTIMIZATION_PLUGIN_FILE', plugin_basename( IMAGE_OPTIMIZATION_FILE ) );
+
+if ( ! defined( 'IMAGE_OPTIMIZATION_MINIMUM_LOG_LEVEL' ) ) {
+	define( 'IMAGE_OPTIMIZATION_MINIMUM_LOG_LEVEL', 3 );
+}
 
 register_deactivation_hook(
 	__FILE__,

@@ -245,7 +245,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			$content = UniteFunctionsUC::fileGetContents($filepath);
 			$content = trim($content);
 			
-			//$content = substr($content, 0, 10000);
+			$content = substr($content, 0, 4000);
 			
 			return ($content);
 		}
@@ -382,10 +382,15 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		/**
 		 * get css include
 		 */
-		public static function getHtmlCssInclude($url){
+		public static function getHtmlCssInclude($url, $handle = null){
+			
+			$addHTML = "";
+			if(!empty($handle))
+				$addHTML = " id='{$handle}'";
+			
 			// phpcs:ignore WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet
-			$html = "<link rel=\"stylesheet\" type=\"text/css\" href=\"{$url}\">";
-
+			$html = "<link rel=\"stylesheet\" type=\"text/css\" href=\"{$url}\" {$addHTML} >";
+			
 			return($html);
 		}
 
@@ -393,9 +398,15 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		/**
 		 * get css include
 		 */
-		public static function getHtmlJsInclude($url){
+		public static function getHtmlJsInclude($url, $handle=null){
+			
+			$addHTML = "";
+			if(!empty($handle))
+				$addHTML = " id='{$handle}'";
+			
 			// phpcs:ignore WordPress.WP.EnqueuedResources.NonEnqueuedScript
-			$html = "<script type=\"text/javascript\" src=\"{$url}\"></script>";
+			
+			$html = "<script type=\"text/javascript\" src=\"{$url}\" $addHTML></script>";
 
 			return($html);
 		}
@@ -491,7 +502,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			
 			if(is_string($data))
 				$data = htmlspecialchars($data);
-			
+							
 			dmp($data);
 			
 			self::putHtmlDataDebugBox_end();

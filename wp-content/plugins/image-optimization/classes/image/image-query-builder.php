@@ -43,6 +43,31 @@ class Image_Query_Builder {
 		return $this;
 	}
 
+	public function return_optimization_in_progress_images(): self {
+		$this->query['meta_query'][] = [
+			'relation' => 'AND',
+			[
+				'key'     => '_wp_attachment_metadata',
+				'compare' => 'EXISTS',
+			],
+			[
+				'relation' => 'OR',
+				[
+					'compare' => 'LIKE',
+					'value'   => 'optimization-in-progress";',
+					'key'     => 'image_optimizer_metadata',
+				],
+				[
+					'compare' => 'LIKE',
+					'value'   => 'reoptimizing-in-progress";',
+					'key'     => 'image_optimizer_metadata',
+				],
+			],
+		];
+
+		return $this;
+	}
+
 	public function return_optimized_images(): self {
 		$this->query['meta_query'][] = [
 			'compare' => 'LIKE',
@@ -75,7 +100,8 @@ class Image_Query_Builder {
 	}
 
 	public function set_image_ids( array $image_ids ): self {
-		$this->query['post__in'] = $image_ids;
+		// Passing an empty array to post__in will return the last posts instead of an empty result.
+		$this->query['post__in'] = count( $image_ids ) ? $image_ids : [ 0 ];
 
 		return $this;
 	}

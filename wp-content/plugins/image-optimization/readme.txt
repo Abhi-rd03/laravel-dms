@@ -2,9 +2,9 @@
 Contributors: elemntor
 Tags: image optimization, image compression, convert webp, convert avif, performance,
 Requires at least: 6.2
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.6.8
+Stable tag: 1.6.9
 License: GPL-3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -118,6 +118,11 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 5. Image Optimizer - Image Optimization in the Media Uploader
 
 == Changelog ==
+= 1.6.9 2025-11-04 =
+Tweak: Improved handling of stuck in-progress optimization statuses
+Fix: Corrected bulk optimization flow to include missed image sizes
+Fix: Resolved toast review notification issue
+
 = 1.6.8 2025-09-10 =
 New: Reviews & CSAT flow to gather user feedback
 New: Added 80% usage reached notification

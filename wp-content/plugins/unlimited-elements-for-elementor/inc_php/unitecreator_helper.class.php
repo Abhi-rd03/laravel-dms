@@ -27,16 +27,17 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		private static $arrDebug;
 		private static $hasOutput = false;
 		public static $arrWidgetScripts = array();
-
+		private static $arrUsedHTMLHandles = array();
+		
 		public static function a____GENERAL____(){}
 
 		/**
 		 * heck if debug by url
 		 */
 		public static function isDebug(){
-			
+
 			$debug = UniteFunctionsUC::getGetVar("ucdebug","",UniteFunctionsUC::SANITIZE_KEY);
-			
+
 			if(empty($debug))
 				return(false);
 
@@ -617,34 +618,28 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			return($url);
 		}
 
-		
+
 		/**
 		 * convert some url to relative
 		 */
 		public static function URLtoRelative($url, $isAssets = false){
-			
+
 			$replaceString = GlobalsUC::$url_base;
 			if($isAssets == true)
 				$replaceString = GlobalsUC::$url_assets;
-			
-			//$replaceString = UniteFunctionsUC::removeHttpHttps($replaceString);
-				
+
 			//in case of array take "url" from the array
 			if(is_array($url)){
 
 				$strUrl = UniteFunctionsUC::getVal($url, "url");
 				if(empty($strUrl))
 					return($url);
-			
-				//$strUrl = UniteFunctionsUC::removeHttpHttps($strUrl);
-					
+
 				$url["url"] = str_replace($replaceString, "", $strUrl);
 
 				return($url);
 			}
-			
-			//$url = UniteFunctionsUC::removeHttpHttps($url);
-			
+
 			$url = str_replace($replaceString, "", $url);
 
 			return($url);
@@ -987,7 +982,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	 * get url content
 	 */
 	public static function getFileContentByUrl($url, $filterExtention = null){
-	
+
 		if(!empty($filterExtention)){
 			$info = pathinfo($url);
 			$ext = UniteFunctionsUC::getVal($info, "extension");
@@ -996,9 +991,9 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			if($ext != $filterExtention)
 				return (null);
 		}
-		
+
 		$pathFile = self::urlToPath($url);
-		
+
 		if(empty($pathFile))
 			return (null);
 
@@ -1479,8 +1474,60 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			HelperUC::putCustomScript("var g_ucRemoteHideErrors=true;", false, "remote_controls_hide_errors");
 		
 	}
-	
 
+	/**
+	 * put script html, if the handle didn't used
+	 */
+	public static function putScriptHtml($url, $handle = null){
+		
+		if(empty($handle))
+			$handle = self::convertTitleToHandle($url);
+		
+		if($handle == "jquery"){
+			$isJQueryInPage = wp_script_is( 'jquery', 'enqueued' );
+			if($isJQueryInPage == true){
+				self::$arrUsedHTMLHandles[$handle] = true;
+				return(false);
+			}
+		}
+		
+		
+		if($handle != "jquery")
+			$handle = "ue_js_{$handle}";
+		
+		if(isset(self::$arrUsedHTMLHandles[$handle]))
+			return(false);	
+		
+		self::$arrUsedHTMLHandles[$handle] = true;
+		
+		$htmlInclude = HelperHtmlUC::getHtmlJsInclude($url, $handle);
+		
+		echo $htmlInclude."\n";		
+	}
+	
+	
+	/**
+	 * put style html, if the handle didn't used
+	 */
+	public static function putStyleHtml($url, $handle = null){
+		
+		if(empty($handle))
+			$handle = self::convertTitleToHandle($url);
+		
+		$handle = "ue_css_{$handle}";
+		
+		if(isset(self::$arrUsedHTMLHandles[$handle]))
+			return(false);	
+		
+		self::$arrUsedHTMLHandles[$handle] = true;
+		
+		$htmlInclude = HelperHtmlUC::getHtmlCssInclude($url, $handle);
+		
+		echo $htmlInclude."\n";
+		
+	}
+	
+	
 	/**
 	 *
 	 * register style helper function

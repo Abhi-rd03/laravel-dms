@@ -1,5 +1,39 @@
 
 
+version 2.0.1:
+
+* Fix: fixed some small secirity issue with the forms
+* Update: updated freemius sdk to 1.13.0
+
+
+version 2.0:
+
+* Feature: added schema options to posts and multisource widget types
+* Feature: made options for ai visibility (the schema)
+
+
+version 1.5.152:
+
+* Fix: disable short pixel plugin on ajax requests, because it's breaking the json response
+* Fix: fixed some wpml language with thumb id issues
+* Feature: added the schema for multisource and post list params authomatically
+* Fix: make sure that there are images url's in all of the schemas
+
+
+version 1.5.151:
+
+* Fix: fixed some font awesome double include bugs
+* Fix: fixed some init filters issue
+* Fix: fixed file upload issues
+* Feature: Set google reviews in original language and added option to choose review langauge
+* Feature: added support for acf option pages
+* Fix: added some doubly plugin compatability functions
+* Fix: fixed some filters and pagination issues or non showing correct numbers
+* Fix: Fixed current langauge setup in wpml
+* Feature: added Full Post Intro to multisource fields. Moved truncate text to top side
+* Fix: fixed js background output with object cache enabled
+
+
 
 version 1.5.150:
 

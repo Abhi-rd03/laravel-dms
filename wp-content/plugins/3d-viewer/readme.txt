@@ -2,7 +2,7 @@
 Contributors: bplugins, abuhayat, shehabulislam, freemius
 Tags: 3D model viewer, threejs, widget, model viewer, 360° product view
 Tested up to: 6.8
-Stable tag: 1.8.0
+Stable tag: 1.8.2
 Requires PHP: 7.1
 Donate link: https://www.buymeacoffee.com/abuhayat
 License: GPLv2 or later
@@ -230,6 +230,19 @@ No, This plugin only support .glb and .glTF files. Please convert your file to a
 
 
 == Changelog ==
+
+
+= 1.8.2 - 4 Dec, 2025  =
+* Feature: Option to add Link on hotspot (Premium)
+* Improved: Some JS and CSS coding
+* Feature: AR mode on Classic Shortcode Generator
+
+= 1.8.1 - 5 Nov, 2025  =
+* Update: Library update
+* Fixed: Flatsome theme conflict
+* Removed: Hand tool on the model
+* Featature: Fullscreen Button on iPhone
+
 
 = 1.8.0 - 15 Sep, 2025  =
 * New Page: Dashboard

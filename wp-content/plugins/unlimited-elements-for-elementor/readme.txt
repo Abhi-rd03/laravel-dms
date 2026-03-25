@@ -12,54 +12,63 @@ Elementor all-in-one addons pack with the best widgets for Elementor, offering 1
  
 == Description ==
 
-<strong>Elementor</strong> users, elevate your web design experience with <strong>Unlimited Elements for Elementor</strong>. An all in one plugin that instantly gives you the most advanced widgets and tools to make better Elementor websites faster.  Take your WordPress website to the next level. 
+For a limited time only, **get 50% off** all Unlimited Elements pricing plans.
+This is our best deal of the entire year and the perfect moment to upgrade your workflow with powerful widgets, advanced features, and faster page-building tools.
+Don't miss it, once **Black Friday** is over, the offer disappears. 
+[Get 50% Off Now](https://unlimited-elements.com/pricing/)
 
-<a href="https://unlimited-elements.com/elementor-widgets/">View Elementor Widgets Demos</a>
 <br>
-Browse our extensive collection of free widgets or upgrade to our pro version for access to over 200 additional unique drag and drop widgets for <strong>Elementor</strong>. Each widget provides a wide range of options to easily control every aspect. If you can't find what you need, our <strong>Widget Creator</strong> Framework empowers you to create any widget you can imagine.
 
-<h3>Plugin Features</h3>
+**Elementor** users, elevate your web design experience with **Unlimited Elements for Elementor**. An all in one plugin that instantly gives you the most advanced widgets and tools to make better Elementor websites faster.  Take your WordPress website to the next level. 
 
-- <a href="https://unlimited-elements.com/elementor-widgets/"><strong>Widget Library</strong></a> Enhance the popular Elementor page builder with our user-friendly and innovative widget library. Simplify your website by finding everything you need in one place, without the need for multiple plugins.
+[View Elementor Widgets Demos](https://unlimited-elements.com/elementor-widgets/)
 
-- <a href="https://unlimited-elements.com/widget-creator/"><strong>Widget Creator</strong></a> Save valuable time by eliminating the need to search for numerous plugins and add-ons. Instead, create customized, professional widgets that perfectly align with your website requirements.
+<br>
 
-- <a href="https://unlimited-elements.com/elementor-templates/"><strong>Elementor Templates</strong></a>  Effortlessly kickstart your web project with pre-designed templates. Say goodbye to endless searches for inspiration or starting from scratch. Get your project up and running in seconds with our collection of template kits.
+Browse our extensive collection of free widgets or upgrade to our pro version for access to over 200 additional unique drag and drop widgets for **Elementor**. Each widget provides a wide range of options to easily control every aspect. If you can't find what you need, our **Widget Creator** Framework empowers you to create any widget you can imagine.
 
-- <a href="https://unlimited-elements.com/loop-builder-for-elementor/"><strong>Loop Builder</strong></a>  Easily create dynamic Loop Items within the Elementor Theme Builder by utilizing any loop widget layout of your preference. Effortlessly populate the chosen widget with dynamic content to craft versatile and engaging Loop Items.
+=== Plugin Features ===
 
-- <a href="https://unlimited-elements.com/background-widgets-for-elementor/"><strong>Background Widgets</strong></a>  Elevate your web designs instantly with our user-friendly animated backgrounds available in our extensive widget library. Experience seamless integration and unleash your creativity like never before.
+1. **[Widget Library](https://unlimited-elements.com/elementor-widgets/)** - Enhance the Elementor page builder with an innovative widget library and simplify your workflow.
 
-- <a href="https://unlimited-elements.com/post-widgets-filters-tools/"><strong>Post Widgets & Filters</strong></a>  Easily create stunning post layouts with real-time filters. Improve the browsing experience for website visitors by helping them find the content they're looking for. Effortlessly display posts using advanced criteria on your entire website. 
+2. **[Widget Creator](https://unlimited-elements.com/widget-creator/)** - Create custom professional widgets without searching for multiple add-ons.
 
-- <a href="https://unlimited-elements.com/woo/"><strong>WooCommerce Widgets & Filters</strong></a>  Create stunning product layouts with dynamic real-time filters. Showcase your products and categories in a wide array of interactive formats, such as grids, carousels, sliders, and more.
+3. **[Elementor Templates](https://unlimited-elements.com/elementor-templates/)** - Start projects instantly with pre-designed template kits.
 
-- <a href="https://unlimited-elements.com/remote-control-widgets/"><strong>Woo Widgets & Filters</strong></a>  Unleash your creativity with advanced and customizable layouts. Take full control of your designs and make them truly unique using the remote controls. Stand out from the crowd with layouts that are both eye-catching and distinctive.
+4. **[Loop Builder](https://unlimited-elements.com/loop-builder-for-elementor/)** - Build dynamic loop items using any widget layout filled with dynamic content.
 
-- <a href="https://unlimited-elements.com/sync-widgets/"><strong>Sync Between Widgets</strong></a>  Elevate your web designs to new heights by seamlessly synchronizing multiple item-based widgets. This powerful feature empowers you to effortlessly create intricate and personalized layouts, taking your designs to the next level of sophistication.
+5. **[Background Widgets](https://unlimited-elements.com/background-widgets-for-elementor/)** - Instantly improve your designs with animated background widgets.
 
-- <a href="https://unlimited-elements.com/multi-source-galleries/"><strong>Multi-Source Galleries</strong></a>  Empower your gallery showcase by effortlessly featuring Woo products, WordPress posts, Instagram feeds, and a variety of other sources, including various API integrations.
+6. **[Post Widgets & Filters](https://unlimited-elements.com/post-widgets-filters-tools/)** - Create beautiful post layouts with real-time filtering options.
 
-- <a href="https://unlimited-elements.com/live-copy-paste/"><strong>Live Copy Paste</strong></a>  Copy and paste fully designed sections from the Unlimited Elements website directly to your website, saving you time and ensuring you can finish your web project as soon as possible.
+7. **[WooCommerce Widgets & Filters](https://unlimited-elements.com/woo/)** - Display products in grids, sliders, carousels, and other dynamic layouts.
 
-- <a href="https://unlimited-elements.com/mega-menu-widget-for-elementor/"><strong>Mega Menu Builder</strong></a>  Easily craft a distinctive Mega Menu for your website navigation by incorporating images, icons, links, and various Elementor widgets into unique menu layouts. 
+8. **[Remote Control Widgets](https://unlimited-elements.com/remote-control-widgets/)** - Build advanced, unique layouts using remote-control-driven design.
 
-- <a href="https://unlimited-elements.com/mega-slider-widget-for-elementor/"><strong>Mega Slider Builder</strong></a>  Easily turn any Elementor sections into slider slides. Now you can amaze your website visitors with jaw-dropping slider designs that look amazing on any device.
+9. **[Sync Between Widgets](https://unlimited-elements.com/sync-widgets/)** - Synchronize multiple widgets to create advanced, cohesive layouts.
 
-- <a href="https://unlimited-elements.com/multi-source/"><strong>Multi-Source Widgets</strong></a>  Add content dynamically to item-based widgets effortlessly with support for ACF repeaters, JSON/CSV files, Woo Products, WordPress posts, users, menus, and a range of API integrations.
+10. **[Multi-Source Galleries](https://unlimited-elements.com/multi-source-galleries/)** - Build galleries from Woo products, posts, Instagram, and API sources.
 
-- <a href="https://unlimited-elements.com/dynamic-post-popup-widget-for-elementor/"><strong>Dynamic Popup Builder</strong></a>  Dynamically create a popup to add a quick view of the post without leaving the page. Use an Elementor single post template to create the layout of the dynamic popup.
+11. **[Live Copy Paste](https://unlimited-elements.com/live-copy-paste/)** - Copy ready-made designs from the Unlimited Elements site directly into Elementor.
 
-- <a href="https://unlimited-elements.com/form-builder/"><strong>Elementor Form Builder</strong></a>  Build advanced forms effortlessly using the drag-and-drop form builder. Whether its a simple or complex form, our straightforward form widgets make it quick and easy to create forms, improving your workflow.
+12. **[Mega Menu Builder](https://unlimited-elements.com/mega-menu-widget-for-elementor/)** - Create advanced mega menus with widgets, images, icons, and links.
 
-- <a href="https://unlimited-elements.com/calculators/"><strong>Calculator Builder</strong></a>  Easily design professional calculators for any type of industry. Whether you need a loan calculator, mortgage calculator or business calculator, our powerful and intuitive drag and drop builder makes it easy to create complex calculators with ease.
+13. **[Mega Slider Builder](https://unlimited-elements.com/mega-slider-widget-for-elementor/)** - Convert any Elementor section into a slider slide.
 
-- <a href="https://unlimited-elements.com/filters/"><strong>Elementor Filter Widgets</strong></a>  Unlock the potential of the AJAX-based faceted filter system, seamlessly empowering you to craft diverse layouts with ease. Take control by applying multiple filters, ensuring a super-fast and dynamic filtering experience tailored to your website needs.
+14. **[Multi-Source Widgets](https://unlimited-elements.com/multi-source/)** - Populate widgets dynamically using ACF, JSON/CSV, Woo, posts, users, menus, and APIs.
+
+15. **[Dynamic Popup Builder](https://unlimited-elements.com/dynamic-post-popup-widget-for-elementor/)** - Add quick-view dynamic popups built with Elementor templates.
+
+16. **[Elementor Form Builder](https://unlimited-elements.com/form-builder/)** - Build simple or advanced forms using drag-and-drop widgets.
+
+17. **[Calculator Builder](https://unlimited-elements.com/calculators/)** - Create calculators for any industry with a powerful drag-and-drop builder.
+
+18. **[Elementor Filter Widgets](https://unlimited-elements.com/filters/)** - Use AJAX faceted filters to build fast, dynamic filtering systems.
 
 
 === Widget Library ===
 
-Find everything you need in one convenient package and supercharge your <strong>Elementor</strong> website.
+Find everything you need in one convenient package and supercharge your **Elementor** website.
 
 
 === Creative Widgets for Elementor ===
@@ -939,6 +948,135 @@ The choice depends on your design preferences. If you want complete control, go 
 == Changelog ==
 
 
+version 2.0.1 2025-11-26 =
+
+* Fix: fixed some small secirity issue with the forms
+* Update: updated freemius sdk to 1.13.0
+
+
+version 2.0: 2025-11-24 =
+
+Plugin Changes: 
+
+* Feature: added schema options to posts and multisource widget types
+* Feature: made options for ai visibility (the schema)
+
+Widgets Changes:
+
+* Feature: Background Switcher (Free) - Added Hover Blur Effect option, allowing a subtle blur to be applied when hovering over elements for enhanced visual interaction.
+* Feature: Post Grid (Free) - Added Meta Data One, Two, Three, Four, and Five Typography Override options, allowing full control over the styling of each individual metadata field.
+* Feature: Icon Bullets (Free) - Separated the Gap option into two independent controls: Column Gap and Row Gap, providing more precise spacing adjustments for grid layouts.
+* Feature: Icon Bullets (Free) - Added Item Justify Content option, allowing greater control over horizontal alignment within each item.
+* Fix: Justified Image Carousel (Pro) - Fixed issue where a hash name was incorrectly added to the URL after opening the lightbox, ensuring clean and consistent URL behavior.
+* Fix: Animated Border Icon Box (Free) - Fixed issue where the full-box link was not functioning correctly on hover, ensuring the entire item remains fully clickable as intended.
+* Fix: Content Accordion (Free) - Increased the priority of the Heading Text Typography option, ensuring it can successfully override conflicting CSS rules applied by various themes.
+* Fix: Fullscreen Menu (Free) - Rebuilt the option so the icon size now updates automatically in the editor, and adjusted the default styling to ensure the icon is vertically centered.
+* Fix: Content Tabs (Free) - Removed outdated and unnecessary code that was preventing widgets from functioning correctly when their parent container was hidden using Elementor’s responsive visibility options.
+
+
+version 1.5.152: 2025-11-17 =
+
+* Fix: disable short pixel plugin on ajax requests, because it's breaking the json response
+* Fix: fixed some wpml language with thumb id issues
+* Feature: added the schema for multisource and post list params authomatically
+* Fix: make sure that there are images url's in all of the schemas
+* Change: added black friday theme to the plugin
+
+
+version 1.5.151: 2025-10-16 =
+
+Plugin Changes: 
+
+* Fix: fixed some font awesome double include bugs
+* Fix: fixed some init filters issue
+* Fix: fixed file upload issues
+* Feature: Set google reviews in original language and added option to choose review langauge
+* Feature: added support for acf option pages
+* Fix: added some doubly plugin compatability functions
+* Fix: fixed some filters and pagination issues or non showing correct numbers
+* Fix: Fixed current langauge setup in wpml
+* Feature: added Full Post Intro to multisource fields. Moved truncate text to top side
+* Fix: fixed js background output with object cache enabled
+
+Widgets Changes: 
+
+* Feature: Card Carousel (Free) - Made the Button Padding and Button Radius options responsive, allowing different values for desktop, tablet, and mobile devices to ensure optimal appearance across all screen sizes.
+* Feature: Stars Background (Pro) - Added &quot;Disable Pointer Blocking - option, allows users to prevent the widget from blocking pointer events when the background is displayed as the foreground.
+* Feature: Accordion Filters (Pro) - Added an Item Box Shadow option, allowing customization of shadow effects around items to improve visual depth and overall design aesthetics.
+* Feature: Search Filter (Pro) - Added Button Shadow and Button Shadow Hover options, enabling customization of shadow effects for buttons in both normal and hover states to enhance visual depth and interactivity.
+* Feature: Video on Hover (Free) - Added an &quot;Open Link on Click&quot; option that allows users to open a link when the video is clicked.
+* Feature: Unlimited Google Maps (Free) - Improved mobile interaction with category items, allowing users to tap anywhere on the category to expand or collapse it instead of only on the arrow icon, enhancing usability and accessibility.
+* Feature: Mega Menu (Pro) - Added Typography options for the Active Menu Item state, allowing detailed customization of font style, size, and appearance for active navigation elements.
+* Feature: Content Switcher (Pro) - Made the Radius and Padding options responsive, allowing different values to be set for desktop, tablet, and mobile devices for improved design adaptability.
+* Feature: Event List (Pro) - Added an Item Button Text option, allowing customization of the button label for each item to provide more flexibility in content presentation.
+* Feature: How To (Free) - Added &quot;Transition Duration&quot; option for the buttons.
+* Feature: Unlimited Google Maps (Free) - Added Zoom Level Mobile option that allows setting a custom zoom level specifically for mobile devices
+* Feature: PDF Viewer (Free) - Improved PDF Viewer Widget accessibility - added role=&quot;region&quot; and aria-label to main wrapper for semantic identification, converted navigation arrows and fullscreen control to button elements using role attribute with descriptive aria-labels for screen reader clarity, added aria-live=&quot;polite&quot; to page counter for dynamic updates, and ensured iframe has a meaningful title attribute for screen reader context.
+* Feature: Currency Converter (Pro) - Added accessibility improvements - assigned role=&quot;form&quot; to the main widget, added proper aria-label attributes for inputs, search fields, and currency selectors, made the swap button keyboard-focusable with tabindex=&quot;0&quot; and role=&quot;button&quot;, added aria-live=&quot;polite&quot; to the output container for dynamic updates, and ensured all interactive elements have meaningful labels for screen readers.
+* Feature: Video on Hover (Free) - Added keyboard accessibility support to Video on Hover widget by enabling video play/pause on focus and blur events, ensuring users can interact with the widget using the keyboard in addition to mouse hover.
+* Feature: Comparison List (Pro) - Added vertical and text alignment options for the Package Column.
+* Feature: Video on Hover (Free) - Added a &quot;Show Lightbox on Click&quot; option to play videos in a lightbox popup.
+* Feature: Overlay Button (Free) - Added a Border Hover option, enabling customization of border styles and effects when hovering over elements for improved interactivity and visual feedback.
+* Feature: Icon Accordion (Free) - Added new Scroll To Head options, including device-specific control (Desktop, Mobile, or both) along with customizable offset values for desktop and mobile, ensuring precise scroll positioning across different devices.
+* Feature: Icon Tabs (Free) - Added a new option section called Accordion Head, which includes settings for alignment, direction, text alignment, background color, title color, and icon color for both normal and active states, providing more precise control over accordion header styling.
+* Feature: Scroll Accordion (Pro) - Improved accessibility of Scroll Accordion Widget by adding semantic roles, making headers focusable, enabling keyboard navigation, and implementing dynamic aria-expanded updates so fully visible or scrolled-past cards are expanded while cards below the viewport remain collapsed
+* Feature: Icon Box Accordion (Pro) - Added keyboard support for accordion toggling with Enter/Space and improved accessibility by managing aria-expanded and aria-hidden attributes.
+* Feature: Liquid Full Screen Menu (Free) - Added a Sub Menu Padding option, allowing customization of inner spacing within submenu items for improved layout and readability.
+* Feature: Unlimited Google Maps (Free) - Added support for the Map widget inside Elementor Tabs, ensuring proper functionality and display when used within tabbed layouts.
+* Feature: Video on Hover (Free) - Added a Mode option that allows choosing between playing a video on hover or hiding the video on hover, providing greater flexibility for interactive behavior.
+* Feature: Pricing Table (Free) - Added a List Text Align option, allowing customization of text alignment within list elements for improved layout control.
+* Feature: Background Switcher (Free) - Added role, aria-selected, tabindex and enabled keyboard support so focused items can now be activated with Enter and deactivated with Esc.
+* Feature: Justified Image Carousel (Pro) - Added a Full Size Image URL option, allowing direct access to the full-resolution version of images for better display and linking capabilities.
+* Feature: Timeline Bullets (Free) - Improved accessibility: added roles attributes and keyboard support to Timeline Bullets - items can now be activated with Enter and deactivated with Esc.
+* Feature: Icon Box (Free) - Added Icon Horizontal Align and Button Horizontal Align options, providing greater control over the horizontal positioning of icons and buttons.
+* Feature: Icon Accordion (Free) - Improved accessibility of the Icon Accordion by adding aria-expanded, aria-controls, aria-labelledby, role, and tabindex, enabling keyboard support so Enter opens an item and Esc closes it, and ensuring aria-expanded updates correctly when toggling content.
+* Feature: Social Share Buttons (Free) - Added a XING share link option, enabling content to be easily shared on the XING platform.
+* Change: Post Query Summary (Pro) - Changed the default editor message displayed when a widget is added to the page, ensuring consistency with messages used in other similar widgets.
+* Change: Unfold Content (Free) - Made the Scroll Back To Top option work not only after folding back but also when unfolding the content, ensuring smoother navigation and improved user experience.
+* Change: Loop Carousel (Pro) - Changed the logic for handling disabled dots so they are no longer added to the page at all, improving markup cleanliness and performance.
+* Fix: Video Carousel (Free) - Fixed an issue where the marquee direction (up and down) was not working correctly in the marquee layout.
+* Fix: Accordion Filters (Pro) - Added a fix for the initial load issue where connected filters were briefly visible before JavaScript was fully loaded, ensuring a smoother and cleaner page rendering experience.
+* Fix: Checkboxes Filter (Free) - Added `flex-shrink: 0` to the checkbox element to prevent it from shrinking in layouts with limited space, ensuring consistent appearance and alignment.
+* Fix: Unlimited Google Maps (Free) - Fixed an issue with the initial Category display where the All Closed, All Opened, and First Opened options were not functioning correctly, ensuring proper initial state behavior.
+* Fix: Job Listing (Pro) - Improved accessibility for the widget - added semantic HTML landmarks and roles, meaningful heading levels, ARIA labels for buttons, badges, and skill tags.
+* Fix: Image Scroll (Free) - Added accessibility features to the Widget - assigned role=&quot;group&quot; to the main wrapper, added aria-label describing the widget’s purpose, ensured all &lt;img&gt; elements have meaningful alt text, and set appropriate aria-hidden=&quot;true&quot; attributes for device overlays to improve screen reader experience.
+* Fix: 360 Product Viewer (Pro) - Added role=&quot;region&quot; with aria-label to the main wrapper, aria-live=&quot;polite&quot; for dynamic updates, and aria-labels plus role=&quot;button&quot; for navigation controls to improve accessibility of the widget.
+* Fix: Layers (Pro) - Added role=&quot;group&quot; with aria-label=&quot;Layered visual content&quot; to the main widget wrapper and role=&quot;img&quot; to icon elements to improve accessibility and assistive technology support.
+* Fix: Toggle Dropdown (Free) - Added accessibility improvements to the Toggle Dropdown widget: implemented aria-expanded attribute for the toggle button to indicate its open/closed state and improved JavaScript logic for managing the hidden attribute to properly toggle dropdown visibility.
+* Fix: Scroll Marquee (Free) - Added aria-hidden=&quot;true&quot; to the Scroll Marquee widget to mark it as decorative and prevent distraction for assistive technologies.
+* Fix: Unlimited Google Maps (Free) - Fixed an issue where the Accordion On Open option was not functioning correctly, ensuring proper behavior when expanding accordion items.
+* Fix: Comparison List (Pro) - Fixed a bug that caused the table layout to break when item text exceeded the column width, and corrected an issue where row borders were not displaying properly on mobile devices.
+* Fix: Mega Menu (Pro) - Fixed an issue where clicking on the Expand Icon did not open the dropdown when the Item had the Clickable Link option enabled, ensuring proper functionality of both features.
+* Fix: Smooth Scroll (Pro) - Added logic to stop Lenis smooth scroll when hovering over Mega Menu on mobile devices.
+* Fix: Unlimited Carousel (Pro) - Added protection against themes applying default button styles that could break the appearance of arrows and bullets, ensuring consistent widget styling.
+* Fix: Loop Grid (Pro) - Added Re-Init Elementor Animations option to allow reinitialization of animations only when explicitly enabled by users.
+* Fix: Stacked Icons (Pro) - Improved accessibility of Stacked Images widget by adding semantic roles, meaningful aria-label attributes and focusability for non-link items.
+* Fix: Stacked Images (Pro) - Improved accessibility of Stacked Images widget by adding semantic roles, meaningful aria-label attributes, focusability for non-link items, and descriptive alt text for images.
+* Fix: Stacking Cards (Free) - Improved accessibility of Stacking Cards widget by adding semantic roles, tabindex, meaningful aria-label attributes, and ensuring cards and interactive elements are fully keyboard-navigable
+* Fix: Custom Cursor (Free) - Improved accessibility by adding aria-hidden=&quot;true&quot; to the custom cursor elements so they are ignored by assistive technologies.
+* Fix: Scroll Sequence (Pro) - Improved accessibility by adding role=&quot;img&quot; and a generic aria-label=&quot;Scroll sequence animation&quot; to describe the canvas for assistive technologies.
+* Fix: Christmas Icons (Free) - Improved accessibility by hiding decorative icons from assistive technologies with aria-hidden=&quot;true&quot;, and adding aria-label to links where applicable.
+* Fix: Morph Slider (Pro) - Improved accessibility by adding region landmark and labels to the slider, enhancing navigation with aria-controls, providing slide position context, and removing redundant roles.
+* Fix: Scroll Image Reveal (Free) - Updated JS to respect users prefers-reduced-motion setting: scroll-triggered animations are disabled for users who prefer reduced.
+* Fix: Animated Hamburger Icon (Free) - Added accessibility support to the widget by including role, aria-label and aria-expanded attributes.
+* Fix: Image Shapes (Pro) - Added accessibility support to Image Shapes widget by including role=&quot;img&quot; and aria-label attributes.
+* Fix: Particle Image (Pro) - Added alt attribute to Particle Image widget to improve accessibility.
+* Fix: Image Zoom Magnifier (Pro) - Added aria-describedby attribute to Image Zoom Magnifier widget for improved accessibility.
+* Fix: Icon Accordion (Free) - Fixed an issue where the accordion was not opening correctly after the latest update, ensuring proper functionality and access.
+* Fix: Content Slider (Free) - Added a trigger for the resize event after carousel load to prevent layout issues and ensure proper display in all cases.
+* Fix: Comparison List (Pro) - Fixed an issue with column borders not displaying correctly in RTL mode.
+* Fix: Icon Tabs (Free) - Added role attributes and aria-selected attributes to the Icon Tabs widget to improve accessibility.
+* Fix: Lordicon: Animated Icons (Free) - Improved accessibility -  added ARIA labels and role=&quot;img&quot; attributes.
+* Fix: Shape Bullets (Free) - Improved widgets accessibility: added ARIA roles for better screen-reader support, allowed aria-hidden on decorative SVGs.
+* Fix: SVG Animation (Free) - Improved accessibility: added aria-hidden=&quot;true&quot; for decorative SVGs and replaced show() with visibility to prevent layout shifts.
+* Fix: Flip Box Carousel (Pro) - Improved accessibility across the widget, enhancing usability for all users, including those relying on assistive technologies.
+* Fix: Rhombus Grid (Pro) - Improved accessibility in Rhombus Grid widget by adding roles, aria-labels, keyboard navigation, and focus support.
+* Release: Conditions (Free) - The Conditions widget lets you show or hide elements based on custom rules or interactions. Easily control what appears on your page depending on triggers, user actions, or other conditions.
+* Release: Starfield Background (Pro) - The Starfield Background Widget creates a moving field of stars that gives any section a deep, cosmic atmosphere. It’s ideal for adding subtle motion and a futuristic touch to your layouts while keeping performance smooth and lightweight.
+* Release: Scroll Marquee (Free) - Scroll Marquee lets your images glide smoothly across the screen as users scroll, creating a sleek horizontal motion effect. Perfect for showcasing logos, galleries, or product shots in a dynamic, eye-catching way.
+* Release: Video Carousel (Free) - Video Carousel lets you showcase multiple videos in a sleek, swipeable slider with smooth navigation. Engage visitors with a modern, interactive way to browse and play your video content.
+
+
 version 1.5.150 - 2025-09-10 =
 
 Plugin Changes:
@@ -1005,7 +1143,7 @@ Widgets Changes:
 * Feature: Mega Menu (Pro) - Allowed the use of HTML tags within the Text Graphic element, enabling richer formatting and greater customization of text content.
 * Feature: Flag Icons (Free) - Extended the &quot;Link&quot; option to work with all layout types, not just the dropdown layout, providing greater flexibility and consistency across different designs.
 * Feature: Portfolio Carousel (Pro) - Added a new Image Grow On Hover option, allowing images to smoothly scale up when hovered over.
-* Feature: Justified Image Carousel (Pro) - Added new elements — Subtitle and Button — to expand available content options in the widget.
+* Feature: Justified Image Carousel (Pro) - Added new elements Subtitle and Button to expand available content options in the widget.
 * Feature: Repeater Carousel (Pro) - Added support for WYSIWYG type of ACF field, enabling rich text content to be displayed properly within the widget.
 * Feature: Repeater Grid (Pro) - Added support for WYSIWYG type of ACF field, enabling rich text content to be displayed properly within the widget.
 * Feature: Vertical Curved Timeline (Free) - Added Layout Type option allowing elements to be positioned in a column or a row.
@@ -1087,7 +1225,7 @@ Widgets Changes:
 * Fix: Underline Link Hover Effect (Pro) - Fixed issue where the transition duration was not applied to the text element, ensuring smooth and consistent animations
 * Other: Select Dropdown Filter (Free) - Added additional instruction for the Select First option, providing clearer guidance on its usage and behavior.
 * Other: Tabs Filter (Pro) - Added additional instruction for the Select First option, providing clearer guidance on its usage and behavior.
-* Release: Flag Icons (Free) - New Widget: Flag Icons. Easily add country flag icons to your Elementor designs — perfect for highlighting international destinations, events, or global content!
+* Release: Flag Icons (Free) - New Widget: Flag Icons. Easily add country flag icons to your Elementor designs perfect for highlighting international destinations, events, or global content!
 
 
 

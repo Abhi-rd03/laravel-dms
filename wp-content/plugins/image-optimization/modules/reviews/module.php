@@ -197,11 +197,44 @@ class Module extends Module_Base {
 		return false;
 	}
 
+	/**
+	 * Add review link to plugin row meta
+	 *
+	 * @param array $links
+	 * @param string $file
+	 * @return array
+	 * 
+	 */
+	public function add_plugin_row_meta( $links, $file ) {
+
+		if ( ! defined( 'IMAGE_OPTIMIZATION_PLUGIN_FILE' ) || IMAGE_OPTIMIZATION_PLUGIN_FILE !== $file ) {
+			return $links;
+		}
+
+		$links[] = '<a class="image-optimization-review" 
+						href="https://wordpress.org/support/plugin/image-optimization/reviews/#new-post"
+						target="_blank" rel="noopener noreferrer" 
+						title="' . esc_attr__( 'Rate our plugin', 'image-optimization' ) 
+					. '">
+							<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+					</a>';
+
+		echo '<style>
+				.image-optimization-review{ display: inline-flex;flex-direction: row-reverse;} 
+				.image-optimization-review span{ color:#888}
+				.image-optimization-review span:hover{color:#ffa400}
+				.image-optimization-review span:hover~span{color:#ffa400}
+			</style>';
+
+		return $links;
+	}
+
 	public function __construct() {
 		add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_scripts' ] );
 		add_action( 'admin_init', [ $this, 'register_base_data' ] );
 		add_action( 'rest_api_init', [ $this, 'register_settings' ] );
 		add_action( 'all_admin_notices', [ $this, 'render_app' ] );
+		add_filter( 'plugin_row_meta', array( $this, 'add_plugin_row_meta' ), 10, 2 );
 
 		$this->register_routes();
 	}
